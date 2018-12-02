@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.body {
+  width: 100vw;
+}
+
+.body-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  background-color: orangered;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.logo--lighter {
+  color: gray;
+}
+
+.nav-block__item {
+  display: inline;
+}
+
+.burger {
+  margin-left: auto;
+  border: 1px black solid;
+  width: 30px;
+  height: 30px;
+}
+
+.burger__lines {
+  width: 100%;
+  border-bottom: 2px black solid;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.burger__lines:first-of-type {
+  margin-top: 15px;
+}
